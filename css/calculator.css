@@ -1,0 +1,41 @@
+.calculator {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 294px;
+  height: 432px;
+  border-style: solid;
+  border:solid 1px #ccc;
+  border-radius: 10px;
+}
+
+.tittle {
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+}
+
+.screen {
+  width: 100%;
+  border: none; /* <-- This thing here */
+  border:solid 1px #ccc;
+  border-radius: 10px;
+}
+
+.fill-width {
+  width: 100%;
+}
+
+.spacing{
+  margin: 5px;
+}
+
+.button-sytle {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #E0E0E0;
+}
