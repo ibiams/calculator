@@ -18,6 +18,7 @@
 }
 
 .screen {
+  font-family: 'Roboto Mono', ;
   width: 100%;
   border: none; /* <-- This thing here */
   border:solid 1px #ccc;

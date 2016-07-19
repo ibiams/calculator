@@ -12,7 +12,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/calculator.css" charset="utf-8">
   </head>
   <body>
@@ -25,38 +25,38 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <input class="screen" type="text" name="name" value="" readonly>
+            <input id="screen" class="screen" type="text" value="">
           </div>
         </div>
         <div class="row spacing">
-          <button class="btn button-sytle">AC</button>
-          <button class="btn button-sytle">CE</button>
-          <button class="btn button-sytle">%</button>
-          <button class="btn button-sytle">/</button>
+          <button id="clean" class="btn button-sytle">AC</button>
+          <button id="backspace" class="btn button-sytle">CE</button>
+          <button class="btn button-sytle character">%</button>
+          <button class="btn button-sytle character">/</button>
         </div>
         <div class="row spacing">
-          <button class="btn button-sytle">7</button>
-          <button class="btn button-sytle">8</button>
-          <button class="btn button-sytle">9</button>
-          <button class="btn button-sytle">*</button>
+          <button class="btn button-sytle character">7</button>
+          <button class="btn button-sytle character">8</button>
+          <button class="btn button-sytle character">9</button>
+          <button class="btn button-sytle character">*</button>
         </div>
         <div class="row spacing">
-          <button class="btn button-sytle">4</button>
-          <button class="btn button-sytle">5</button>
-          <button class="btn button-sytle">6</button>
-          <button class="btn button-sytle">-</button>
+          <button class="btn button-sytle character">4</button>
+          <button class="btn button-sytle character">5</button>
+          <button class="btn button-sytle character">6</button>
+          <button class="btn button-sytle character">-</button>
         </div>
         <div class="row spacing">
-          <button class="btn button-sytle">1</button>
-          <button class="btn button-sytle">2</button>
-          <button class="btn button-sytle">3</button>
-          <button class="btn button-sytle">+</button>
+          <button class="btn button-sytle character">1</button>
+          <button class="btn button-sytle character">2</button>
+          <button class="btn button-sytle character">3</button>
+          <button class="btn button-sytle character">+</button>
         </div>
         <div class="row spacing">
-          <button class="btn button-sytle">.</button>
-          <button class="btn button-sytle">0</button>
+          <button class="btn button-sytle character">.</button>
+          <button class="btn button-sytle character">0</button>
           <button class="btn button-sytle">Ans</button>
-          <button class="btn button-sytle">=</button>
+          <button id="result" class="btn button-sytle">=</button>
         </div>
       </div>
 
@@ -65,5 +65,7 @@
     <script src="https://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js" charset="utf-8"></script>
+    <script src="js/calculator.js" charset="utf-8"></script>
   </body>
 </html>
