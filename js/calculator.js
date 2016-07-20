@@ -20,24 +20,7 @@ $( "#result" ).click(function(){
   $( "#screen" ).val(math.eval(expression));
 });
 
-// $('#screen').on('keypress', function(){
-//     console.log("Saving value " + $(this).val());
-//     $(this).data('val', $(this).val());
-//
-// });
-
-// $( "#screen" ).keyup(function(){
-//     var prev = $(this).data('val');
-//     var current = $(this).val();
-//     console.log("Prev value " + prev);
-//     console.log("New value " + current);
-//
-//   var str = $( "#screen" ).val() + $( this ).text();
-//   var patt = new RegExp("^\\D|\\D\\D|\\d+\\.\\d+\\.");
-//
-//   if (!patt.test(current))
-//     $("#screen").val(current);
-//   else {
-//     $("#screen").val(prev);
-//   }
-// });
+$( "#document" ).keyup(function(){
+  $( "#screen" ).val("");
+  console.log("");
+});
